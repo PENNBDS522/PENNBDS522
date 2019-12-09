@@ -1,0 +1,9 @@
+name: "How to conquer the world"
+output_dir: "."
+navbar:
+  title: "Conquering the world"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html

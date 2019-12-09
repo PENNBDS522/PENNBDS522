@@ -1,0 +1,24 @@
+---
+title: "My Website"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Step 1. Learn R.
+
+```{r}
+1 + 1
+```
+
+
+Step 2. Graduate
+
+```{r}
+library(gapminder)
+summary(lm(lifeExp ~ year, gapminder))
+```
+
